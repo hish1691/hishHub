@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
+<title></title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    
+     <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    
+    </head>
+    
+<body>
+    
+    
+    
+    <div id="mapid"></div>
+    
+    <style>
+        
+        #mapid { height: 480px; }
+        
+    </style>
+    
+    <script type ="text/javascript">
+        
+    var mymap = L.map('mapid').setView([42.80778, -83.02209], 7);
+        
+ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18,
+    id: 'hish1691.0dc523bd',
+    accessToken: 'pk.eyJ1IjoiaGlzaDE2OTEiLCJhIjoiY2lwZzQ4ZDFhMDAwa3RqbTQ4d2VqcjRiNiJ9.cMxi2pn98U73HPktE8IekA'
+}).addTo(mymap);
+        
+        var marker1 = L.marker([42.80778, -83.02209]).addTo(mymap);
+        marker1.bindPopup("<b>My House</b><br>This is my home").openPopup();
+        
+        var marker2 = L.marker([42.68914, -82.95716]).addTo(mymap);
+        marker2.bindPopup("<b>My High School</b><br>This is my high school").openPopup();
+        
+        var marker3 = L.marker([42.96504, -85.90399]).addTo(mymap);
+        marker3.bindPopup("<b>My University</b><br>This is my university").openPopup();
+        
+    </script>
+    
+    
+
+    </body>
+    
+    <footer></footer>

@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+
+#Title1{
+	font-size: 32px;
+	color: black;
+	width: auto;
+	text-align: center;
+    height: auto;
+    margin-top: 110px;
+    margin-bottom: 200px;
+    
+}
+
+#Title2{
+	
+	color: black;
+	width: auto;
+	text-align: center;
+    height: auto;
+    margin-top: 25%;
+    
+    
+}
+
+#Title3{
+	font-size: 9px;
+	color: black;
+	width: auto;
+	text-align: center;
+    height: auto;
+    margin-top: 2%;
+   
+    
+}
+
+
+#about_me{
+    
+    
+    margin-bottom: 100px;
+    
+}
+
+.header{
+    text-align: left;
+    
+}
+
+#about_me p{
+    
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+    text-align: right;
+    font-size: medium;
+    color: black;
+
+}
+
+#about_me img{
+    position: absolute;
+	top: 40%;
+    margin-left: 50%;
+   
+    
+}
+
+#the_table{
+    margin-left: 100px;
+    margin-top: 15%;
+}
+
+#the_table {
+font-size: small;
+    
+}
+
+#one_list{
+    color:blue;
+}
+
+#best{
+    font-style: italic;
+}
+
+.odd{
+   
+}
+
+.even img{
+    margin-bottom: 10%;
+}
+
+.links{
+    font-family: sans-serif;
+    margin-left: 25%;
+}
